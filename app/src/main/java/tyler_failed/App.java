@@ -5,7 +5,7 @@ package tyler_failed;
 
 public class App {
     public String getGreeting() {
-        return "Hello World!";
+        return "tyler failed";
     }
 
     public static void main(String[] args) {
