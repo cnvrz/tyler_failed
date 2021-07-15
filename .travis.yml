@@ -1,1 +1,12 @@
 language: java
+deploy:
+  provider: cloudfoundry
+  api: cf-api
+  username: tyler
+  password:
+    secure: Z+VC+UUbQ0AumKFEhAXSVJCzNXPiMeZWqQi05KMJswaQg4mSgerNY0ACkq9McpJ8w6yWiTP0ddGHE1UacF4xNqOxDmr9O8POThHNLJseJGMGG9ehL6Kl/yPVLIvhL75iG2HeICLa/2s76V0nmFLLhg8ijxCD6ceyqO1ak7Sl3uGlJqn1lIT28S7a9NZ+S5ppkL1IV1NNVI42ULt49ynIPcxSQ+5xpLoFKn9UTLoD/TXC3WsWO/5waAYIXJ3aPI/RE+hC3NmcgpG+fAe1rkjH2C+kEgxLKAhDLcwhTjmZmMtaNhHLprO1IaAHUNyH6wde2V85WQweH56So0lF47T7dXP0UFkimZi/SO9y33+SLDyT8nN23xdP8SLTwMt1bpuclBjtNLdCDaah77B4JP/huLtsL4tAOcVp20wVgeVLywleV8QC88t0vxe7V3fvg3WIhwCEhdocSbaQpnbIE8tDLR5bsVSZEwv2yx7pBN6Zq9DBC+hC3H4thUVtFfqLExv0xKushkZLk3P3EJs4WSqxyddAm5GpHnYjCGpITCwQH1gtr/1MK2sMCX0fL+B2grQG+rvdsuHvbtJrB5S/+ma8hNJIKNOeZie9pjdiHV1LNKVLw9yA24iq1rdqpfKT9Dz6/NJAyYn3bBVjAUgVboGvMOZDXdoBMyJl705GQFc/Jsc=
+  organization: tyler_failed
+  space: tyler_failed
+  on:
+    repo: cnvrz/tyler_failed
+  skip_cleanup: 'true'
